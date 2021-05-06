@@ -1,3 +1,5 @@
+docker run --network host -it ubuntu
+=================
 apt update && apt upgrade -y
 apt install curl -y
 curl -fsSL https://code-server.dev/install.sh | sh
