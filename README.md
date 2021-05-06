@@ -2,6 +2,6 @@
 
 ## deploy a ubuntu for development
 ``` bash
-docker run ubuntu
+docker run -it ubuntu
 
 ```
