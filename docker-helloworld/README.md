@@ -27,10 +27,10 @@ docker login
 
 
 # docker build -t registry-host:5000/cenzwong/myfirstapp .
-docker build -t cenzwong/myfirstapp .
+docker build -t cenzwong/myfirstapp:ekimetrics .
 
 # docker image push registry-host:5000/cenzwong/myfirstapp
-docker image push cenzwong/myfirstapp
+docker image push cenzwong/myfirstapp:ekimetrics
 ```
 
 https://hub.docker.com/r/cenzwong/myfirstapp
