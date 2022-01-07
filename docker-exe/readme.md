@@ -1,3 +1,8 @@
+# Command to run
+
+
 ```
-docker run -it dockerexe --mount type=bind,source=/workspace/docker-code-book/docker-exe/mount,target=/mount
+docker run -it --mount type=bind,source=$(pwd)/mymount,target=/mymount dockerexe
+docker run -it -v $(pwd)/mymount:/mymount dockerexe bash
 ```
+- It shows the text in mymount
