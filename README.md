@@ -4,6 +4,8 @@
 ``` bash
 docker run --network host -it ubuntu
 
+# the rm will delete the container after exit
+docker run --rm -it hackerschoice/gsocket
 ```
 ```
 docker run --network host -v /run/desktop/mnt/host/c:/mnt/c --name hello -it ubuntu
